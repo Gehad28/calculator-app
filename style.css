@@ -39,7 +39,7 @@ h1{
     background-color: white;
     max-width: 1200px;
     width: 50%;
-    min-height: 55vh;
+    /* min-height: 55vh; */
     padding: 2rem;
     display: flex;
     gap: 2rem;
