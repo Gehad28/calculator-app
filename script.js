@@ -1,7 +1,7 @@
 const billInput = document.getElementById("bill");
 const countInput = document.getElementById("count");
 const customInput = document.getElementById("custom");
-const btns = document.querySelectorAll("#percent");
+const btns = document.querySelectorAll(".percent");
 const resetBtn = document.getElementById("reset");
 
 const errorMessagebill = document.getElementById("error-message-bill");
