@@ -237,7 +237,12 @@ footer{
     width: 100%;
 }
 
-@media (max-width: 380px){
+@media (max-width: 550px){
+    main{
+        position: absolute;
+        top: 0;
+    }
+
     .container{
         width: 100%;
         flex-direction: column;
@@ -255,8 +260,17 @@ footer{
         grid-template-columns: 1fr 1fr;
     }
 
+    button:hover{
+        background-color: var(--greyish-cyan);
+        color: white;
+    }
+
     .input-section label, p, span{
         font-size: 0.6em;
+    }
+
+    .result-section button:hover{
+        background-color: var(--strong-cyan);
     }
 
     footer{
